@@ -1,0 +1,35 @@
+.text h1{
+  font-size: 74px;
+  margin-bottom: 45px;
+  font-family: Impact;
+  font-weight: bold;
+}
+
+.text p{
+  font-size: 33px;
+  font-weight: 500;
+  font-family: "cursive";
+}
+
+.text button{
+  width: 235px;
+  height: 74px;
+    background-color: blue;
+    color: white;
+    margin-top: 12px;
+    font-size: 13px;
+}
+
+.text button:hover{
+  background-color: green;
+}
+
+.text #addText{
+  margin-top: 35px;
+}
+
+@media (min-width: 1400px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1140px;
+  }
+}
